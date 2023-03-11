@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://nkuzyz.github.io</id>
+    <title>Nku-Zyz</title>
+    <updated>2023-03-11T21:05:18.423Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://nkuzyz.github.io"/>
+    <link rel="self" href="https://nkuzyz.github.io/atom.xml"/>
+    <subtitle>Be focus on yourself !!!</subtitle>
+    <logo>https://nkuzyz.github.io/images/avatar.png</logo>
+    <icon>https://nkuzyz.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, Nku-Zyz</rights>
+    <entry>
+        <title type="html"><![CDATA[Swagger]]></title>
+        <id>https://nkuzyz.github.io/post/swagger/</id>
+        <link href="https://nkuzyz.github.io/post/swagger/">
+        </link>
+        <updated>2023-03-11T21:01:06.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Springboot + Swagger]]></title>
+        <id>https://nkuzyz.github.io/post/springboot-swagger/</id>
+        <link href="https://nkuzyz.github.io/post/springboot-swagger/">
+        </link>
+        <updated>2023-03-11T19:10:36.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[linux 后台执行任务]]></title>
+        <id>https://nkuzyz.github.io/post/linux-hou-tai-zhi-xing-ren-wu/</id>
+        <link href="https://nkuzyz.github.io/post/linux-hou-tai-zhi-xing-ren-wu/">
+        </link>
+        <updated>2023-03-11T18:57:11.000Z</updated>
+        <summary type="html"><![CDATA[<p>后台：<br>
+nohup cmd &amp;</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>后台：<br>
+nohup cmd &amp;</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[爬虫概念-1]]></title>
+        <id>https://nkuzyz.github.io/post/pa-chong-gai-nian-1/</id>
+        <link href="https://nkuzyz.github.io/post/pa-chong-gai-nian-1/">
+        </link>
+        <updated>2023-01-31T14:29:02.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Excel设置样式-2]]></title>
+        <id>https://nkuzyz.github.io/post/excel-she-zhi-yang-shi-2/</id>
+        <link href="https://nkuzyz.github.io/post/excel-she-zhi-yang-shi-2/">
+        </link>
+        <updated>2023-01-31T14:21:48.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Excel自动化处理-1]]></title>
+        <id>https://nkuzyz.github.io/post/excel-zi-dong-hua-chu-li-1/</id>
+        <link href="https://nkuzyz.github.io/post/excel-zi-dong-hua-chu-li-1/">
+        </link>
+        <updated>2023-01-31T14:06:35.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[conda命令]]></title>
+        <id>https://nkuzyz.github.io/post/conda-ming-ling/</id>
+        <link href="https://nkuzyz.github.io/post/conda-ming-ling/">
+        </link>
+        <updated>2023-01-13T17:34:09.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mac备忘录]]></title>
+        <id>https://nkuzyz.github.io/post/mac-bei-wang-lu/</id>
+        <link href="https://nkuzyz.github.io/post/mac-bei-wang-lu/">
+        </link>
+        <updated>2023-01-13T17:32:17.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【Q】未找到相关的 Issues 进行评论]]></title>
+        <id>https://nkuzyz.github.io/post/q-wei-zhao-dao-xiang-guan-de-issues-jin-xing-ping-lun/</id>
+        <link href="https://nkuzyz.github.io/post/q-wei-zhao-dao-xiang-guan-de-issues-jin-xing-ping-lun/">
+        </link>
+        <updated>2023-01-13T17:20:26.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【摘录】大学生存]]></title>
+        <id>https://nkuzyz.github.io/post/zhai-lu-da-xue-sheng-cun/</id>
+        <link href="https://nkuzyz.github.io/post/zhai-lu-da-xue-sheng-cun/">
+        </link>
+        <updated>2023-01-13T16:56:06.000Z</updated>
+    </entry>
+</feed>

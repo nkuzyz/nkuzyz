@@ -1,0 +1,430 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+<meta name="description" content="" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>Ubuntu初始化设置 | Nku-Zyz</title>
+
+<link rel="shortcut icon" href="https://nkuzyz.github.io/favicon.ico?v=1678568714267">
+
+<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://nkuzyz.github.io/styles/main.css">
+<!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css"> -->
+
+<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages/dockerfile.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/highlight.js/9.12.0/languages//dart.min.js"></script>
+
+<!-- <script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script> -->
+<!-- DEMO JS -->
+<!--<script src="media/scripts/index.js"></script>-->
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-254150854-1"></script>
+<script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+        dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+    gtag('config', 'UA-254150854-1');
+</script>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+    
+</head>
+<body>
+<div class="main gt-bg-theme-color-first">
+    <nav class="navbar navbar-expand-lg">
+    <a class="navbar-brand" href="/">
+        <img class="user-avatar" src="/images/avatar.png" alt="头像">
+        <div class="site-name gt-c-content-color-first">
+            Nku-Zyz
+        </div>
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" id="changeNavbar">
+        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="navbar-nav mr-auto" style="text-align: center">
+            
+            <div class="nav-item">
+                
+                <a href="/" class="menu gt-a-link">
+                    首页
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/archives" class="menu gt-a-link">
+                    归档
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/tags" class="menu gt-a-link">
+                    标签
+                </a>
+                
+            </div>
+            
+            <div class="nav-item">
+                
+                <a href="/post/about" class="menu gt-a-link">
+                    关于
+                </a>
+                
+            </div>
+            
+        </div>
+        <div style="text-align: center">
+            <form id="gridea-search-form" style="position: relative" data-update="1678568714267"
+                action="/search/">
+                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
+                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
+            </form>
+        </div>
+    </div>
+</nav>
+<script>
+    /* 移动端导航栏展开/收起切换 */
+    document.getElementById('changeNavbar').onclick = () => {
+        var element = document.getElementById('navbarSupportedContent');
+        if (element.style.display === 'none' || element.style.display === '') {
+            element.style.display = 'block';
+        } else {
+            element.style.display = 'none';
+        }
+    }
+</script>
+
+    <div class="post-container">
+        <div class="post-detail gt-bg-theme-color-second">
+            <article class="gt-post-content">
+                <h2 class="post-title">
+                    Ubuntu初始化设置
+                </h2>
+                <div class="post-info">
+                    <time class="post-time gt-c-content-color-first">
+                        · 2023-01-13 ·
+                    </time>
+                    
+                        <a href="https://nkuzyz.github.io/tag/8SaCxmxTN/" class="post-tags">
+                            # linux
+                        </a>
+                    
+                </div>
+                <div class="post-content">
+                    <blockquote>
+<p>ubuntu设置教程</p>
+</blockquote>
+<h2 id="必做更新">必做：更新</h2>
+<p>update是更新软件列表，upgrade是更新软件。</p>
+<p><strong>更新源信息</strong></p>
+<pre><code class="language-shell">sudo apt-get update
+</code></pre>
+<p><strong>更新源对应的软件库信息</strong></p>
+<pre><code class="language-shell">sudo apt-get upgrade
+</code></pre>
+<h2 id="安装输入法">安装输入法</h2>
+<pre><code class="language-shell">sudo apt install ibus-libpinyin
+ sudo apt install ibus-clutter
+
+</code></pre>
+<p>以上就结束了</p>
+<figure data-type="image" tabindex="1"><img src="https://zyzstc-1303973796.cos.ap-beijing.myqcloud.com/uPic/image-20220923225824421.png" alt="image-20220923225824421" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://zyzstc-1303973796.cos.ap-beijing.myqcloud.com/uPic/image-20220923225845189.png" alt="image-20220923225845189" loading="lazy"></figure>
+<figure data-type="image" tabindex="3"><img src="https://zyzstc-1303973796.cos.ap-beijing.myqcloud.com/uPic/image-20220923225858271.png" alt="image-20220923225858271" loading="lazy"></figure>
+<p>下面没啥用</p>
+<p>ibus设置</p>
+<pre><code class="language-shell">sudo ibus-setup
+</code></pre>
+<p>WSL(Linux子系统) gedit 报错 failed to commit changes to dconf: Failed to execute child process “dbus-launch” (No such file or directory)</p>
+<p>安装下面这些包可能会解决问题</p>
+<pre><code class="language-shell">sudo apt-get install x11-xserver-utils dconf-editor dbus-x11 -y
+xhost +
+</code></pre>
+<p>xhost用于获取显示的权限</p>
+<h2 id="install-gcc">Install GCC</h2>
+<pre><code class="language-shell">sudo apt-get install build-essential
+</code></pre>
+<p>安装vscode</p>
+<p>sudo dpkg -i '/home/parallels/Downloads/code_1.71.2-1663189619_arm64.deb'</p>
+<h2 id="更换源">更换源</h2>
+<p>我们这里以清华源为例讲解如何修改Ubuntu 22.04里面默认的源。</p>
+<p>编辑/etc/apt/sources.list文件, 在文件最前面添加以下条目(操作前请做好相应备份)：</p>
+<pre><code class="language-shell">sudo gedit /etc/apt/sources.list
+</code></pre>
+<p>换成下面的内容</p>
+<p>清华源</p>
+<pre><code class="language-shell"># 默认注释了源码镜像以提高 apt update 速度，如有需要可自行取消注释
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-updates main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-backports main restricted universe multiverse
+deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-security main restricted universe multiverse
+
+# 预发布软件源，不建议启用
+# deb https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
+# deb-src https://mirrors.tuna.tsinghua.edu.cn/ubuntu/ jammy-proposed main restricted universe multiverse
+
+
+</code></pre>
+<p>然后执行命令：</p>
+<pre><code class="language-shell">sudo apt-get update
+sudo apt-get upgrade
+
+
+</code></pre>
+<pre><code class="language-shell"># 默认源
+# See http://help.ubuntu.com/community/UpgradeNotes for how to upgrade to
+# newer versions of the distribution.
+deb http://c.archive.ubuntu.com/ubuntu/ jammy main restricted
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy main restricted
+
+## Major bug fix updates produced after the final release of the
+## distribution.
+deb http://c.archive.ubuntu.com/ubuntu/ jammy-updates main restricted
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy-updates main restricted
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team. Also, please note that software in universe WILL NOT receive any
+## review or updates from the Ubuntu security team.
+deb http://c.archive.ubuntu.com/ubuntu/ jammy universe
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy universe
+deb http://c.archive.ubuntu.com/ubuntu/ jammy-updates universe
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy-updates universe
+
+## N.B. software from this repository is ENTIRELY UNSUPPORTED by the Ubuntu
+## team, and may not be under a free licence. Please satisfy yourself as to
+## your rights to use the software. Also, please note that software in
+## multiverse WILL NOT receive any review or updates from the Ubuntu
+## security team.
+deb http://c.archive.ubuntu.com/ubuntu/ jammy multiverse
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy multiverse
+deb http://c.archive.ubuntu.com/ubuntu/ jammy-updates multiverse
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy-updates multiverse
+
+## N.B. software from this repository may not have been tested as
+## extensively as that contained in the main release, although it includes
+## newer versions of some applications which may provide useful features.
+## Also, please note that software in backports WILL NOT receive any review
+## or updates from the Ubuntu security team.
+deb http://c.archive.ubuntu.com/ubuntu/ jammy-backports main restricted universe multiverse
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy-backports main restricted universe multiverse
+
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy-security main restricted
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy-security main restricted
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy-security universe
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy-security universe
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy-security multiverse
+# deb-src http://ports.ubuntu.com/ubuntu-ports/ jammy-security multiverse
+deb http://c.archive.ubuntu.com/ubuntu/ jammy main universe restricted multiverse
+deb http://ports.ubuntu.com/ubuntu-ports/ jammy main universe restricted multiverse
+</code></pre>
+<h2 id="更新内核">更新内核</h2>
+<p><a href="https://linuxhint.com/update_ubuntu_kernel/">更新内核完整博文与方法</a></p>
+<p>i would like to choose method 3, it's easy and quick.</p>
+<h3 id="update-ubuntu-kernel-version-via-gui">Update Ubuntu Kernel Version via GUI</h3>
+<ol>
+<li>The Mainline tool is not available in official Ubuntu repositories, so we will need to manually add its PPA to the sources.list file in our system. Use the <em>apt-add-repository</em> command for this purpose:</li>
+</ol>
+<pre><code class="language-shell">sudo apt-add-repository -y ppa:cappelikan/ppa
+</code></pre>
+<ol start="2">
+<li>Once you have added the mainline repository, the following step is to update the system’s repository index:</li>
+</ol>
+<pre><code class="language-shell">sudo apt update
+</code></pre>
+<ol start="3">
+<li>Next, install the Mainline tool with this command:</li>
+</ol>
+<pre><code class="language-shell">sudo apt install mainline
+</code></pre>
+<p>​	The system might ask for confirmation by providing you with a <strong>Y/N</strong> option. Hit <strong>Y</strong> to continue, after which the Mainline tool will be installed on your system.</p>
+<ol start="4">
+<li>Launch the mainline tool from the Ubuntu search bar as follows:</li>
+</ol>
+<figure data-type="image" tabindex="4"><img src="https://linuxhint.com/wp-content/uploads/2020/05/12-11.png" alt="img" loading="lazy"></figure>
+<ol start="5">
+<li>install reboot and use &quot;uname -a&quot; to verify.</li>
+</ol>
+<h2 id="开启开机高级选项选择进入的内核版本">开启开机高级选项（选择进入的内核版本）</h2>
+<pre><code class="language-shell">sudo gedit /etc/default/grub
+</code></pre>
+<p>把grub_timeout_style=hidden给删除或者注释掉，把对应的timeout等待时间改为自己喜欢的秒数。然后执行下面两个命令，重启进入ubuntu advance可以选择内核版本</p>
+<pre><code class="language-shell">sudo update-grub
+reboot
+
+
+</code></pre>
+<p>编译c文件</p>
+<pre><code class="language-shell">gcc -o hello hello.c
+./hello
+</code></pre>
+<h2 id="修改用户名">修改用户名</h2>
+<p><a href="https://blog.csdn.net/weixin_39952190/article/details/111548009?spm=1001.2014.3001.5506">修改用户名</a></p>
+<p>首先这是个有危险的动作，刚刚试过修改用户名，发现网上搜索到的方法大部分是有错误的，所以觉得有必要分享出来。</p>
+<p>下面讲的是不添加用户的情况下直接修改当前用户的用户名(大部分用户的ubuntu系统只有一个管理员账户，下面讲的就是如何修改这一个用户的名字)。更改用户名之前，需要了解/etc/passwd 、 /etc/shadow 、/etc/group 三个文件，我们要修改这三个文件。</p>
+<p>/etc/passwd 文件是一个纯文本文件，每行采用了相同的格式：</p>
+<p>name:password:uid:gid:comment:home:shell</p>
+<p>name，用户登录名，我们需要修改的是这个</p>
+<p>password，用户口令。此域中的口令是加密的。当用户登录系统时，系统对输入的口令采取相同的算法，与此域中的内容进行比较。如果此域为空，表明该用户登录时不需要口令。</p>
+<p>uid，指定用户的 UID。用户登录进系统后，系统通过该值，而不是用户名来识别用户。</p>
+<p>gid，GID。如果系统要对相同的一群人赋予相同的权利，则使用该值。</p>
+<p>comment，用来保存用户的真实姓名和个人细节。</p>
+<p>home指定用户的主目录的绝对路径。</p>
+<p>shell如果用户登录成功，则要执行的命令的绝对路径放在这一区域中。它可以是任何命令。</p>
+<p>/etc/group 文件文件的格式和 /etc/passwd 文件格式类似，它也是一个纯文本文件，定义了每个组中的用户。每行的格式是：</p>
+<p>group_name:passwd:GID:user_list</p>
+<p>它们的含义如下：</p>
+<p>group_name组名</p>
+<p>password组口令。此域中的口令是加密的。如果此域为空，表明该组不需要口令。</p>
+<p>gid指定 GID。</p>
+<p>user_list该组的所有用户，用户名之间用逗号隔开。</p>
+<p>与上面两个不同，Linux /etc/shadow文件是只有系统管理员才有权利进行查看和修改的文件。</p>
+<p>Linux /etc/shadow文件中的记录行与/etc/passwd中的一一对应，它由pwconv命令根据/etc/passwd中的数据自动产生。它的文件格式与/etc/passwd类似，由若干个字段组成，字段之间用“:”隔开。这些字段是：</p>
+<p>登录名:加密口令:最后一次修改时间:最小时间间隔:最大时间间隔:警告时间:不活动时间:失效时间:标志</p>
+<p>1)“登录名”是与/etc/passwd文件中的登录名相一致的用户账号</p>
+<p>2)“口令”字段存放的是加密后的用户口令字，长度为13个字符。如果为空，则对应用户没有口令，登录时不需要口    令；如果含有不属于集合{./0-9A-Za-z}中的字符，则对应的用户不能登录。</p>
+<p>3)“最后一次修改时间”表示的是从某个时刻起，到用户最后一次修改口令时的天数。时间起点对不同的系统可能不一样。例如在SCOLinux中，这个时间起点是1970年1月1日。</p>
+<p>4)“最小时间间隔”指的是两次修改口令之间所需的最小天数。</p>
+<p>5)“最大时间间隔”指的是口令保持有效的最大天数。</p>
+<p>6)“警告时间”字段表示的是从系统开始警告用户到用户密码正式失效之间的天数。</p>
+<p>7)“不活动时间”表示的是用户没有登录活动但账号仍能保持有效的最大天数。</p>
+<p>8)“失效时间”字段给出的是一个绝对的天数，如果使用了这个字段，那么就给出相应账号的生存期。期满后，该账号就不再是一个合法的账号，也就不能再用来登录了。</p>
+<h3 id="下面是修改办法">下面是修改办法：</h3>
+<p>注意：用户名不能使用不合法的字符，具体怎样才能合法还没查清楚，目前知道全小写字母肯定可以，首字母不能是大写！</p>
+<p>1)打开一个终端，输入 sudo su转为root用户。</p>
+<p>注意，必须先转为root用户！！！</p>
+<p>2)gedit /etc/passwd ,找到代表你的那一行，修改用户名为新的用户名。</p>
+<p>注意：只修改用户名！后面的全名、目录等不要动！</p>
+<p>3)gedit /etc/shadow，找到代表你的那一行，修改用户名为新用户名</p>
+<p>4)gedit /etc/group，你应该发现你的用户名在很多个组中，全部修改！</p>
+<p>完毕，修改的时候要格外小心，不要打错一个字母。修改完，保存，重启。</p>
+<p>修改用户目录名的方法请查询usermod命令的使用方法</p>
+
+                </div>
+            </article>
+        </div>
+
+        
+            <div class="next-post">
+                <div class="next gt-c-content-color-first">下一篇</div>
+                <a href="https://nkuzyz.github.io/post/about/" class="post-title gt-a-link">
+                    关于
+                </a>
+            </div>
+        
+
+        
+
+        
+            
+                <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.css">
+<script src="https://cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+    // md5.min.js
+    !function(n){
+        "use strict";
+        function d(n,t){var r=(65535&n)+(65535&t);return(n>>16)+(t>>16)+(r>>16)<<16|65535&r}
+        function f(n,t,r,e,o,u){return d((c=d(d(t,n),d(e,u)))<<(f=o)|c>>>32-f,r);var c,f}
+        function l(n,t,r,e,o,u,c){return f(t&r|~t&e,n,t,o,u,c)}
+        function v(n,t,r,e,o,u,c){return f(t&e|r&~e,n,t,o,u,c)}
+        function g(n,t,r,e,o,u,c){return f(t^r^e,n,t,o,u,c)}
+        function m(n,t,r,e,o,u,c){return f(r^(t|~e),n,t,o,u,c)}
+        function i(n,t){var r,e,o,u,c;n[t>>5]|=128<<t%32,n[14+(t+64>>>9<<4)]=t;var f=1732584193,i=-271733879,a=-1732584194,h=271733878;for(r=0;r<n.length;r+=16)f=l(e=f,o=i,u=a,c=h,n[r],7,-680876936),h=l(h,f,i,a,n[r+1],12,-389564586),a=l(a,h,f,i,n[r+2],17,606105819),i=l(i,a,h,f,n[r+3],22,-1044525330),f=l(f,i,a,h,n[r+4],7,-176418897),h=l(h,f,i,a,n[r+5],12,1200080426),a=l(a,h,f,i,n[r+6],17,-1473231341),i=l(i,a,h,f,n[r+7],22,-45705983),f=l(f,i,a,h,n[r+8],7,1770035416),h=l(h,f,i,a,n[r+9],12,-1958414417),a=l(a,h,f,i,n[r+10],17,-42063),i=l(i,a,h,f,n[r+11],22,-1990404162),f=l(f,i,a,h,n[r+12],7,1804603682),h=l(h,f,i,a,n[r+13],12,-40341101),a=l(a,h,f,i,n[r+14],17,-1502002290),f=v(f,i=l(i,a,h,f,n[r+15],22,1236535329),a,h,n[r+1],5,-165796510),h=v(h,f,i,a,n[r+6],9,-1069501632),a=v(a,h,f,i,n[r+11],14,643717713),i=v(i,a,h,f,n[r],20,-373897302),f=v(f,i,a,h,n[r+5],5,-701558691),h=v(h,f,i,a,n[r+10],9,38016083),a=v(a,h,f,i,n[r+15],14,-660478335),i=v(i,a,h,f,n[r+4],20,-405537848),f=v(f,i,a,h,n[r+9],5,568446438),h=v(h,f,i,a,n[r+14],9,-1019803690),a=v(a,h,f,i,n[r+3],14,-187363961),i=v(i,a,h,f,n[r+8],20,1163531501),f=v(f,i,a,h,n[r+13],5,-1444681467),h=v(h,f,i,a,n[r+2],9,-51403784),a=v(a,h,f,i,n[r+7],14,1735328473),f=g(f,i=v(i,a,h,f,n[r+12],20,-1926607734),a,h,n[r+5],4,-378558),h=g(h,f,i,a,n[r+8],11,-2022574463),a=g(a,h,f,i,n[r+11],16,1839030562),i=g(i,a,h,f,n[r+14],23,-35309556),f=g(f,i,a,h,n[r+1],4,-1530992060),h=g(h,f,i,a,n[r+4],11,1272893353),a=g(a,h,f,i,n[r+7],16,-155497632),i=g(i,a,h,f,n[r+10],23,-1094730640),f=g(f,i,a,h,n[r+13],4,681279174),h=g(h,f,i,a,n[r],11,-358537222),a=g(a,h,f,i,n[r+3],16,-722521979),i=g(i,a,h,f,n[r+6],23,76029189),f=g(f,i,a,h,n[r+9],4,-640364487),h=g(h,f,i,a,n[r+12],11,-421815835),a=g(a,h,f,i,n[r+15],16,530742520),f=m(f,i=g(i,a,h,f,n[r+2],23,-995338651),a,h,n[r],6,-198630844),h=m(h,f,i,a,n[r+7],10,1126891415),a=m(a,h,f,i,n[r+14],15,-1416354905),i=m(i,a,h,f,n[r+5],21,-57434055),f=m(f,i,a,h,n[r+12],6,1700485571),h=m(h,f,i,a,n[r+3],10,-1894986606),a=m(a,h,f,i,n[r+10],15,-1051523),i=m(i,a,h,f,n[r+1],21,-2054922799),f=m(f,i,a,h,n[r+8],6,1873313359),h=m(h,f,i,a,n[r+15],10,-30611744),a=m(a,h,f,i,n[r+6],15,-1560198380),i=m(i,a,h,f,n[r+13],21,1309151649),f=m(f,i,a,h,n[r+4],6,-145523070),h=m(h,f,i,a,n[r+11],10,-1120210379),a=m(a,h,f,i,n[r+2],15,718787259),i=m(i,a,h,f,n[r+9],21,-343485551),f=d(f,e),i=d(i,o),a=d(a,u),h=d(h,c);return[f,i,a,h]}
+        function a(n){var t,r="",e=32*n.length;for(t=0;t<e;t+=8)r+=String.fromCharCode(n[t>>5]>>>t%32&255);return r}
+        function h(n){var t,r=[];for(r[(n.length>>2)-1]=void 0,t=0;t<r.length;t+=1)r[t]=0;var e=8*n.length;for(t=0;t<e;t+=8)r[t>>5]|=(255&n.charCodeAt(t/8))<<t%32;return r}
+        function e(n){var t,r,e="0123456789abcdef",o="";for(r=0;r<n.length;r+=1)t=n.charCodeAt(r),o+=e.charAt(t>>>4&15)+e.charAt(15&t);return o}
+        function r(n){return unescape(encodeURIComponent(n))}
+        function o(n){return a(i(h(t=r(n)),8*t.length));var t}
+        function u(n,t){return function(n,t){var r,e,o=h(n),u=[],c=[];for(u[15]=c[15]=void 0,16<o.length&&(o=i(o,8*n.length)),r=0;r<16;r+=1)u[r]=909522486^o[r],c[r]=1549556828^o[r];return e=i(u.concat(h(t)),512+8*t.length),a(i(c.concat(e),640))}(r(n),r(t))}
+        function t(n,t,r){return t?r?u(t,n):e(u(t,n)):r?o(n):e(o(n))}
+        "function"==typeof define&&define.amd?define(function(){return t}):"object"==typeof module&&module.exports?module.exports=t:n.md5=t;
+    }(this);
+</script>
+
+
+<div id="gitalk-container"></div>
+
+<script>
+
+  var gitalk = new Gitalk({
+    clientID: '145c94957751059a4ca7',
+    clientSecret: 'a6dfba14688eac62de21407a73b00b40dcb870c8',
+    repo: 'nkuzyz.github.io',
+    owner: 'nkuzyz',
+    admin: ['nkuzyz'],
+    id: md5(location.pathname),      // Ensure uniqueness and length less than 50
+    distractionFreeMode: false       // Facebook-like distraction free mode
+  })
+
+  gitalk.render('gitalk-container')
+
+</script>
+
+            
+
+            
+        
+
+        
+
+        <div class="site-footer gt-c-content-color-first">
+    <div class="slogan gt-c-content-color-first">Be focus on yourself !!!</div>
+    <div class="social-container">
+        
+            
+                <a href="https://github.com/nkuzyz" target="_blank">
+                    <i class="fab fa-github gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+            
+                <a href="https://www.zhihu.com/people/yi-zhen-94-21" target="_blank">
+                    <i class="fab fa-zhihu gt-c-content-color-first"></i>
+                </a>
+            
+        
+            
+        
+            
+        
+    </div>
+    <div class="footer-info">
+        Powered by <a href="https://nkuzyz.com" target="_blank">nkuzyz</a>
+    </div>
+    <div>
+        Theme <a href="https://github.com/imhanjie/gridea-theme-pure" target="_blank">Pure</a>, Powered by <a
+                href="https://gridea.dev" target="_blank">Gridea</a> | <a href="https://nkuzyz.github.io/atom.xml" target="_blank">RSS</a>
+    </div>
+</div>
+
+<script>
+  hljs.highlightAll()
+</script>
+
+    </div>
+</div>
+</body>
+</html>
